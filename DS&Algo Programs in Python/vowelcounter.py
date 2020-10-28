@@ -11,7 +11,6 @@ def countVowels(S):
         print('Both vowels and consonants are equal in the string ' + S)
     else:
         print('There are more consonants than vowels in the string ' + S)
-
 countVowels('hello')
 countVowels('hi')
 countVowels('aeiocc')
