@@ -1,15 +1,13 @@
 def countVowels(S):
-    total_size = len(S)
-    vowels = 0
-
+    t= len(S)
+    v= 0
     for char in S:
         if char in 'aeiouAEIOU':
-            vowels = vowels + 1
-    consonants = total_size - vowels
-    
-    if vowels > consonants:
+            v=v+1
+    c=t-v
+    if v>c:
         print('There are more vowels than consonants in the string ' + S)
-    elif vowels == consonants:
+    elif v==c:
         print('Both vowels and consonants are equal in the string ' + S)
     else:
         print('There are more consonants than vowels in the string ' + S)
